@@ -5,10 +5,10 @@ import tweepy
 import random  
   
 # Consumer keys and access tokens, used for OAuth  
-consumer_key = 'FBVZdUAo9uyDH2aiTkxEZ80TV'  
-consumer_secret = '9qxFA7xSk2G0qec33YhbnqLsPh6oXy0qKh1wTqwC1oAZAXcCAi'  
-access_token = '1248093396796715009-rraZ3Ozpx0iU9MQzpuhqKKClTTTGUX'
-access_token_secret = 'VxErqNSkFhOhxVxXnVdk6GIFOIOJX5UnblhTNWShtYtfK'  
+consumer_key = 'YOUR_KEY_HERE'  
+consumer_secret = 'YOUR_KEY_HERE'  
+access_token = 'YOUR_TOKEN_HERE'
+access_token_secret = 'YOUR_TOKEN_HERE'  
   
 # OAuth process, using the keys and tokens  
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)  
