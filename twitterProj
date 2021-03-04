@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 screen_name = "ramav245"
 
 
-# printing the latest 20 followers of the user 
+# gets a random follower from the users follower list. 
 x = api.followers_ids(screen_name)
 
 random.shuffle(x)
